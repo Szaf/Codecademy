@@ -71,3 +71,35 @@ In the diagram, notice:
 - HTML heading, paragraph, and unordered list elements are block level: each appears on its own line on the webpage.
 
 - HTML image and anchor elements are displayed inline: they appear on the same line as their neighboring elements on the webpage.
+
+
+In the web browser, the gallery images that were arranged neatly in rows are now stacked on the left side of the webpage.
+
+The CSS display value that arranged the images, flex, has been removed. In addition to other capabilities, flex can be used to easily align multiple page elements horizontally.
+
+In the example code below, there is a div with class parent:
+
+<div class="parent">
+   ...
+</div>
+
+To make children of the div align horizontally on the webpage, in CSS we can use:
+
+.parent {
+  display: flex;
+}
+
+Children elements of the div with class parent will now align horizontally. We can make sure no child element moves off the page by using flex-wrap: wrap;:
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+Finally, to center rows of children elements, we can use justify-content: center;:
+
+.parent {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+}
