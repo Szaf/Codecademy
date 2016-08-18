@@ -2,6 +2,7 @@
 Code from some Codecademy courses
 
 CSS colors:
+
 HEX 	    RGB
 \#2e69a3 	rgb(46,105,163)
 
