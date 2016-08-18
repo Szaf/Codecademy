@@ -53,3 +53,21 @@ Observe the CSS box model diagram to the right:
 - border: The outline of an HTML page element. You can think of it like a picture frame that contains the element.
 
 - margin: The space between the HTML page element and the next nearest element(s).
+
+
+Using borders, padding, and margins allows us to control boundaries and space for individual HTML elements.
+
+But what CSS properties are available to move elements around on the page and create unique page layouts? The CSS display and position properties help accomplish this.
+Display
+
+Not all HTML elements are displayed on a page in the same way. Display types determine how HTML elements will be arranged in relation to each other.
+
+The diagram to the right illustrates the block and inline display types.
+
+In the diagram, notice:
+
+- The two dotted rectangles represent webpages.
+
+- HTML heading, paragraph, and unordered list elements are block level: each appears on its own line on the webpage.
+
+- HTML image and anchor elements are displayed inline: they appear on the same line as their neighboring elements on the webpage.
